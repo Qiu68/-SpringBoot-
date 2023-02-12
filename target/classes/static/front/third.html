@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>这是标题</title>
+	</head>
+	<body>
+		<!--  注释，别人看不见，同事看得见,感叹号必须是英文符号，
+		a相关的伪类
+		link用来表示没有访问过的链接，
+		visited用来表示访问过的链接，link和visited都是只用在a
+		由于隐私的原因，所以visited这个伪类只能修改链接颜色
+		hover用来表示鼠标移入的状态，鼠标停留在链接上就可以
+		active来表示鼠标点击，需要点击，链接才会变颜色-->
+		 
+		
+		<!--伪元素
+		表示页面中一些特殊的并不真实存在的元素（特殊的位置）
+		伪元素使用::开头
+		::first-letter表示第一个字母
+		::first-line表示第一行
+		::selection表示选中内容，在文中选择的内容变色
+		::before元素的开始
+		::after元素的结束
+		before和after必须结合content属性来使用
+		<q>属于短引用，在最前面和最后面加上引号-->
+		<h1>大标题</h1>
+		<!-- 样式的继承
+		 我们为一个元素设置的样式同时也会应用到他的后代元素上
+		 继承是发生在祖先和后代之间的
+		 继承的设计是为了方便我们的开发，
+		 利用继承我们可以将一些通用的样式统一设置到共同的祖先元素上
+		 这样只需要设置一次即可让所有元素都具有该样式
+		 只给body设置一个样式，body里都会拥有该样式
+		 
+		 注意：并不是所有样式都会被继承
+		 比如 背景相关的，布局相关的等这些样式都不会被继承
+		 -->
+		 <hr />
+		 <input type="text"/vvalue="姓名"size="7"maxlength="10">用户名
+		 <input type="password"value="密码"size="7"maxlength="" />密码
+		 <hr />
+		 <input type="radio"name="gender" value="男"/>男
+		 <input type="radio"name="gender" value="女" checked="checked"/>女
+		 <hr />
+		 <input type="checkbox"name="爱好"value="唱歌"/>唱歌
+		 <input type="checkbox"name="爱好"value="跳舞"/>跳舞
+		<input type="checkbox"name="爱好"value="吵架"/>吵架
+	</body>
+</html>
